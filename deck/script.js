@@ -6,7 +6,7 @@ const ctx = canvas.getContext('2d');
 
 function drawCard(x, y, suit, rank) {
     ctx.beginPath();
-    ctx.rect(x, y, 50, 80);
+    ctx.rect(x, y, 100, 160);
     ctx.fillStyle = 'white';
     ctx.fill();
     ctx.stroke();
